@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_wV9dELhqEe2Kif300Z6m1g">
+  <modelElement href="SchedulableObject.uml#_w06C4LhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yhNzsLhqEe2Kif300Z6m1g" sourceAnchor="508.0,0.0" targetAnchor="1016.0,768.0" target="_yhcdObhqEe2Kif300Z6m1g" source="_yhcdObhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx4rhqEe2Kif300Z6m1g"/>
+    <bendpoints xmi:id="_yr9EELhqEe2Kif300Z6m1g" sourceY="-116" targetX="-508" targetY="-884"/>
+    <bendpoints xmi:id="_yr9EEbhqEe2Kif300Z6m1g" sourceX="572" sourceY="-116" targetX="64" targetY="-884"/>
+    <bendpoints xmi:id="_yr9EErhqEe2Kif300Z6m1g" sourceX="572" sourceY="768" targetX="64"/>
+    <nameVisual xmi:id="_yhYy0LhqEe2Kif300Z6m1g" text="">
+      <visualProperties xmi:id="_yr9rILhqEe2Kif300Z6m1g" position="-554.0,-13.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_yhZZ4LhqEe2Kif300Z6m1g" aggregationKind="NONE" name="predecessor" navigable="true">
+      <modelElement href="SchedulableObject.uml#_xC1xOLhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_yr9EE7hqEe2Kif300Z6m1g" position="-121.5,-70.0"/>
+      <visibility xmi:id="_yhaoAbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhaoALhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yhZZ4bhqEe2Kif300Z6m1g" aggregationKind="NONE" name="">
+      <modelElement href="SchedulableObject.uml#_xDZx47hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_yr9rIbhqEe2Kif300Z6m1g" position="5.5,-71.50000000000011"/>
+      <visibility xmi:id="_yhaoA7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhaoArhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhReEbhqEe2Kif300Z6m1g" targetItem="_yhdEdLhqEe2Kif300Z6m1g" sourceItem="_yhReELhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhSFIbhqEe2Kif300Z6m1g" targetItem="_yhdEiLhqEe2Kif300Z6m1g" sourceItem="_yhSFILhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhSsMbhqEe2Kif300Z6m1g" targetItem="_yhdEjbhqEe2Kif300Z6m1g" sourceItem="_yhSsMLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhTTQbhqEe2Kif300Z6m1g" targetItem="_yhdEk7hqEe2Kif300Z6m1g" sourceItem="_yhTTQLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhTTQ7hqEe2Kif300Z6m1g" targetItem="_yhdEmLhqEe2Kif300Z6m1g" sourceItem="_yhTTQrhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhT6UbhqEe2Kif300Z6m1g" targetItem="_yhdEnbhqEe2Kif300Z6m1g" sourceItem="_yhT6ULhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhT6U7hqEe2Kif300Z6m1g" targetItem="_yhdEorhqEe2Kif300Z6m1g" sourceItem="_yhT6UrhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhUhYbhqEe2Kif300Z6m1g" targetItem="_yhdEqLhqEe2Kif300Z6m1g" sourceItem="_yhUhYLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhUhY7hqEe2Kif300Z6m1g" targetItem="_yhdErrhqEe2Kif300Z6m1g" sourceItem="_yhUhYrhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhUhZbhqEe2Kif300Z6m1g" targetItem="_yhdEtLhqEe2Kif300Z6m1g" sourceItem="_yhUhZLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhVIcbhqEe2Kif300Z6m1g" targetItem="_yhdEurhqEe2Kif300Z6m1g" sourceItem="_yhVIcLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhVvgLhqEe2Kif300Z6m1g" targetItem="_yhdEwLhqEe2Kif300Z6m1g" sourceItem="_yhVIcrhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_yhWWkbhqEe2Kif300Z6m1g" targetItem="_yhdE5bhqEe2Kif300Z6m1g" sourceItem="_yhWWkLhqEe2Kif300Z6m1g"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yhb2ILhqEe2Kif300Z6m1g" source="_yhcdObhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xD0orbhqEe2Kif300Z6m1g"/>
+    <stereotypes xmi:id="_yhb2IbhqEe2Kif300Z6m1g" name="Reference">
+      <modelElement href="SchedulableObject.uml#_xD1PsLhqEe2Kif300Z6m1g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yhb2IrhqEe2Kif300Z6m1g" text=""/>
+    <sourceRole xmi:id="_yhb2I7hqEe2Kif300Z6m1g" aggregationKind="NONE" name="">
+      <modelElement href="SchedulableObject.uml#_xD0orrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhb2JLhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhb2JbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yhb2JrhqEe2Kif300Z6m1g" aggregationKind="NONE" name="endTimes" navigable="true">
+      <modelElement href="SchedulableObject.uml#_xC1xObhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhb2J7hqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhb2KLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_yhcdMLhqEe2Kif300Z6m1g" source="_yhcdObhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xD1PsbhqEe2Kif300Z6m1g"/>
+    <stereotypes xmi:id="_yhcdMbhqEe2Kif300Z6m1g" name="Reference">
+      <modelElement href="SchedulableObject.uml#_xD12wLhqEe2Kif300Z6m1g"/>
+    </stereotypes>
+    <nameVisual xmi:id="_yhcdMrhqEe2Kif300Z6m1g" text=""/>
+    <sourceRole xmi:id="_yhcdM7hqEe2Kif300Z6m1g" aggregationKind="NONE" name="">
+      <modelElement href="SchedulableObject.uml#_xD1PsrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdNLhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdNbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_yhcdNrhqEe2Kif300Z6m1g" aggregationKind="NONE" name="subObjects" navigable="true">
+      <modelElement href="SchedulableObject.uml#_xC2YQrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdN7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdOLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhReELhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhReEbhqEe2Kif300Z6m1g" text="@return the endTimes queue" item="_yhdEdLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx5bhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhSFILhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhSFIbhqEe2Kif300Z6m1g" text="@return the name" item="_yhdEiLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx5rhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhSsMLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhSsMbhqEe2Kif300Z6m1g" text="@param name the name to set" item="_yhdEjbhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx57hqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhTTQLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhTTQbhqEe2Kif300Z6m1g" text="@return the releaseTime" item="_yhdEk7hqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx6LhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhTTQrhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhTTQ7hqEe2Kif300Z6m1g" text="@return the phase" item="_yhdEmLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx6bhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhT6ULhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhT6UbhqEe2Kif300Z6m1g" text="@return the startTime" item="_yhdEnbhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx6rhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhT6UrhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhT6U7hqEe2Kif300Z6m1g" text="@param endTime the endTime to set" item="_yhdEorhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx67hqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhUhYLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhUhYbhqEe2Kif300Z6m1g" text="@param startTime the startTime to set" item="_yhdEqLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx7LhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhUhYrhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhUhY7hqEe2Kif300Z6m1g" text="@param releaseTime the releaseTime to set" item="_yhdErrhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx7bhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhUhZLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhUhZbhqEe2Kif300Z6m1g" text="@param period the period to set" item="_yhdEtLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx7rhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhVIcLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhVIcbhqEe2Kif300Z6m1g" text="@param phase the phase to set" item="_yhdEurhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx77hqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhVIcrhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhVvgLhqEe2Kif300Z6m1g" text="@param releaseTime the releaseTime to set" item="_yhdEwLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx8LhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_yhWWkLhqEe2Kif300Z6m1g" sourceConnectionVisual="_yhWWkbhqEe2Kif300Z6m1g" text="Constructor that creates a copy of schedulable &#xA;&#x9; * parameters of the input obj, but setting its&#xA;&#x9; * lastUpdateTime to input time.&#xA;&#x9; * &#xA;&#x9; * @param obj&#xA;&#x9; * @param time" item="_yhdE5bhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_xDZx5LhqEe2Kif300Z6m1g"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_yhcdObhqEe2Kif300Z6m1g" name="SchedulableObject" abstractClass="true" associationsIn="_yhNzsLhqEe2Kif300Z6m1g" associationsOut="_yhNzsLhqEe2Kif300Z6m1g _yhb2ILhqEe2Kif300Z6m1g _yhcdMLhqEe2Kif300Z6m1g">
+    <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+    <visualProperties xmi:id="_yhcdOrhqEe2Kif300Z6m1g" position="11.0,146.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_yhcdO7hqEe2Kif300Z6m1g" label="+"/>
+    <attributes xmi:id="_yhcdPLhqEe2Kif300Z6m1g" defaultValue="0" name="DEFAULT" staticAttribute="true">
+      <modelElement href="SchedulableObject.uml#_xC0jEbhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_zXsvwLhqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhcdPbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdPrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdP7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdQLhqEe2Kif300Z6m1g" defaultValue="100" name="DEFAULT_PERIOD" staticAttribute="true">
+      <modelElement href="SchedulableObject.uml#_xC0jE7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPcLhqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhcdQbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdQrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdQ7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdRLhqEe2Kif300Z6m1g" defaultValue="100" name="DEFAULT_DEADLINE" staticAttribute="true">
+      <modelElement href="SchedulableObject.uml#_xC1KIbhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPcbhqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhcdRbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdRrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdR7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdSLhqEe2Kif300Z6m1g" defaultValue="&quot;unknown&quot;" name="UNKNOWN" staticAttribute="true">
+      <modelElement href="SchedulableObject.uml#_xC1KI7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPcrhqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhcdSbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdSrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdS7hqEe2Kif300Z6m1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdTLhqEe2Kif300Z6m1g" defaultValue="-1" name="BEFORE_START" staticAttribute="true">
+      <modelElement href="SchedulableObject.uml#_xC1KJbhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPc7hqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhcdTbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdTrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdT7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdULhqEe2Kif300Z6m1g" name="name">
+      <modelElement href="SchedulableObject.uml#_xC1KJ7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPdLhqEe2Kif300Z6m1g" visible="false"/>
+      <stereotypes xmi:id="_yhcdUbhqEe2Kif300Z6m1g" name="LegacyStyledElement">
+        <modelElement href="SchedulableObject.uml#_xC1KKLhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhcdUrhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdU7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdVLhqEe2Kif300Z6m1g" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdVbhqEe2Kif300Z6m1g" name="priority">
+      <modelElement href="SchedulableObject.uml#_xC1KKbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdVrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdV7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdWLhqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdWbhqEe2Kif300Z6m1g" name="period">
+      <modelElement href="SchedulableObject.uml#_xC1KKrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdWrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdW7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdXLhqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdXbhqEe2Kif300Z6m1g" name="deadline">
+      <modelElement href="SchedulableObject.uml#_xC1KK7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdXrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdX7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdYLhqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdYbhqEe2Kif300Z6m1g" name="phase">
+      <modelElement href="SchedulableObject.uml#_xC1KLLhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPdbhqEe2Kif300Z6m1g" visible="false"/>
+      <stereotypes xmi:id="_yhcdYrhqEe2Kif300Z6m1g" name="LegacyStyledElement">
+        <modelElement href="SchedulableObject.uml#_xC1xMLhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhcdY7hqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdZLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdZbhqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdZrhqEe2Kif300Z6m1g" name="releaseTime">
+      <modelElement href="SchedulableObject.uml#_xC1xMbhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPdrhqEe2Kif300Z6m1g" visible="false"/>
+      <stereotypes xmi:id="_yhcdZ7hqEe2Kif300Z6m1g" name="LegacyStyledElement">
+        <modelElement href="SchedulableObject.uml#_xC1xMrhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhcdaLhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdabhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdarhqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcda7hqEe2Kif300Z6m1g" name="startTime">
+      <modelElement href="SchedulableObject.uml#_xC1xM7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPd7hqEe2Kif300Z6m1g" visible="false"/>
+      <stereotypes xmi:id="_yhcdbLhqEe2Kif300Z6m1g" name="LegacyStyledElement">
+        <modelElement href="SchedulableObject.uml#_xC1xNLhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhcdbbhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdbrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdb7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdcLhqEe2Kif300Z6m1g" name="endTime">
+      <modelElement href="SchedulableObject.uml#_xC1xNbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdcbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcdcrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdc7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcddLhqEe2Kif300Z6m1g" defaultValue="BEFORE_START" name="lastUpdateTime">
+      <modelElement href="SchedulableObject.uml#_xC1xNrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcddbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcddrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdd7hqEe2Kif300Z6m1g" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdeLhqEe2Kif300Z6m1g" name="predecessor">
+      <modelElement href="SchedulableObject.uml#_xC1xOLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhcdebhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhcderhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcde7hqEe2Kif300Z6m1g" name="SchedulableObject">
+        <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdfLhqEe2Kif300Z6m1g" name="endTimes">
+      <modelElement href="SchedulableObject.uml#_xC1xObhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_2xZPeLhqEe2Kif300Z6m1g" visible="false"/>
+      <stereotypes xmi:id="_yhcdfbhqEe2Kif300Z6m1g" name="Generics">
+        <modelElement href="SchedulableObject.uml#_xC2YQLhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yhcdfrhqEe2Kif300Z6m1g" name="LegacyStyledElement">
+        <modelElement href="SchedulableObject.uml#_xC2YQbhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhcdf7hqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhcdgLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhcdgbhqEe2Kif300Z6m1g" name="PriorityQueue">
+        <modelElement href="SchedulableObject.uml#_w4CPYLhqEe2Kif300Z6m1g"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_yhcdgrhqEe2Kif300Z6m1g" name="subObjects">
+      <modelElement href="SchedulableObject.uml#_xC2YQrhqEe2Kif300Z6m1g"/>
+      <stereotypes xmi:id="_yhdEQLhqEe2Kif300Z6m1g" name="Generics">
+        <modelElement href="SchedulableObject.uml#_xC2YQ7hqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhdEQbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEQrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <type xmi:id="_yhdEQ7hqEe2Kif300Z6m1g" name="Queue">
+        <modelElement href="SchedulableObject.uml#_xBIhArhqEe2Kif300Z6m1g"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yhdERLhqEe2Kif300Z6m1g" name="SchedulableObject">
+      <modelElement href="SchedulableObject.uml#_w5C8ALhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_4QzMsLhqEe2Kif300Z6m1g" visible="false"/>
+      <keywords xmi:id="_yhdERbhqEe2Kif300Z6m1g" keyword="create"/>
+      <visibility xmi:id="_yhdERrhqEe2Kif300Z6m1g" label="~"/>
+      <cardinality xmi:id="_yhdER7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdESLhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5DjErhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdESbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdESrhqEe2Kif300Z6m1g" name="SchedulableObject">
+      <modelElement href="SchedulableObject.uml#_w5DjE7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_4QzzwLhqEe2Kif300Z6m1g" visible="false"/>
+      <keywords xmi:id="_yhdES7hqEe2Kif300Z6m1g" keyword="create"/>
+      <visibility xmi:id="_yhdETLhqEe2Kif300Z6m1g" label="~"/>
+      <cardinality xmi:id="_yhdETbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdETrhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5DjGrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdET7hqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdEULhqEe2Kif300Z6m1g" name="priority">
+        <modelElement href="SchedulableObject.uml#_w5DjFLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEUbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEUrhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEU7hqEe2Kif300Z6m1g" name="period">
+        <modelElement href="SchedulableObject.uml#_w5DjFbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEVLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEVbhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEVrhqEe2Kif300Z6m1g" name="deadline">
+        <modelElement href="SchedulableObject.uml#_w5DjFrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEV7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEWLhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEWbhqEe2Kif300Z6m1g" name="phase">
+        <modelElement href="SchedulableObject.uml#_w5DjF7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEWrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEW7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEXLhqEe2Kif300Z6m1g" name="SchedulableObject">
+      <modelElement href="SchedulableObject.uml#_w5DjG7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_4QzzwbhqEe2Kif300Z6m1g" visible="false"/>
+      <keywords xmi:id="_yhdEXbhqEe2Kif300Z6m1g" keyword="create"/>
+      <visibility xmi:id="_yhdEXrhqEe2Kif300Z6m1g" label="~"/>
+      <cardinality xmi:id="_yhdEX7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEYLhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5EKIrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEYbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdEYrhqEe2Kif300Z6m1g" name="name">
+        <modelElement href="SchedulableObject.uml#_w5DjHLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEY7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEZLhqEe2Kif300Z6m1g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEZbhqEe2Kif300Z6m1g" name="priority">
+        <modelElement href="SchedulableObject.uml#_w5DjHbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEZrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEZ7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEaLhqEe2Kif300Z6m1g" name="period">
+        <modelElement href="SchedulableObject.uml#_w5DjHrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEabhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEarhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEa7hqEe2Kif300Z6m1g" name="deadline">
+        <modelElement href="SchedulableObject.uml#_w5DjH7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEbLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEbbhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEbrhqEe2Kif300Z6m1g" name="phase">
+        <modelElement href="SchedulableObject.uml#_w5DjILhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEb7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEcLhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEcbhqEe2Kif300Z6m1g" name="setDefaultParameters">
+      <modelElement href="SchedulableObject.uml#_w5EKI7hqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_4QzzwrhqEe2Kif300Z6m1g" visible="false"/>
+      <visibility xmi:id="_yhdEcrhqEe2Kif300Z6m1g" label="-"/>
+      <cardinality xmi:id="_yhdEc7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yhdEdLhqEe2Kif300Z6m1g" comments="_yhReELhqEe2Kif300Z6m1g" targetConnectionVisual="_yhReEbhqEe2Kif300Z6m1g" name="getAllEndTimes">
+      <modelElement href="SchedulableObject.uml#_w5EKJLhqEe2Kif300Z6m1g"/>
+      <stereotypes xmi:id="_yhdEdbhqEe2Kif300Z6m1g" name="Generics">
+        <modelElement href="SchedulableObject.uml#_w5EKJbhqEe2Kif300Z6m1g"/>
+      </stereotypes>
+      <visibility xmi:id="_yhdEdrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEd7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEeLhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJIF7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEebhqEe2Kif300Z6m1g" name="PriorityQueue">
+          <modelElement href="SchedulableObject.uml#_w4CPYLhqEe2Kif300Z6m1g"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEerhqEe2Kif300Z6m1g" name="addToEndTimes">
+      <modelElement href="SchedulableObject.uml#_w5EKJrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEe7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEfLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEfbhqEe2Kif300Z6m1g" name="time">
+        <modelElement href="SchedulableObject.uml#_w5EKJ7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEfrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEf7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEgLhqEe2Kif300Z6m1g" name="peekEndTimes">
+      <modelElement href="SchedulableObject.uml#_w5EKKLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEgbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEgrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEg7hqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5ExMLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEhLhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEhbhqEe2Kif300Z6m1g" name="pollEndTimes">
+      <modelElement href="SchedulableObject.uml#_w5ExMbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEhrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEh7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yhdEiLhqEe2Kif300Z6m1g" comments="_yhSFILhqEe2Kif300Z6m1g" targetConnectionVisual="_yhSFIbhqEe2Kif300Z6m1g" name="getName">
+      <modelElement href="SchedulableObject.uml#_w5ExMrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEibhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEirhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEi7hqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5ExM7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEjLhqEe2Kif300Z6m1g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEjbhqEe2Kif300Z6m1g" comments="_yhSsMLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhSsMbhqEe2Kif300Z6m1g" name="setName">
+      <modelElement href="SchedulableObject.uml#_w5ExNLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEjrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEj7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEkLhqEe2Kif300Z6m1g" name="name">
+        <modelElement href="SchedulableObject.uml#_w5ExNbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEkbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEkrhqEe2Kif300Z6m1g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEk7hqEe2Kif300Z6m1g" comments="_yhTTQLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhTTQbhqEe2Kif300Z6m1g" name="getReleaseTime">
+      <modelElement href="SchedulableObject.uml#_w5ExNrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdElLhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdElbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdElrhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5ExN7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEl7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEmLhqEe2Kif300Z6m1g" comments="_yhTTQrhqEe2Kif300Z6m1g" targetConnectionVisual="_yhTTQ7hqEe2Kif300Z6m1g" name="getPhase">
+      <modelElement href="SchedulableObject.uml#_w5ExOLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEmbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEmrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEm7hqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5FYQLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEnLhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEnbhqEe2Kif300Z6m1g" comments="_yhT6ULhqEe2Kif300Z6m1g" targetConnectionVisual="_yhT6UbhqEe2Kif300Z6m1g" name="getStartTime">
+      <modelElement href="SchedulableObject.uml#_w5FYQbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEnrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEn7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEoLhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5FYQrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEobhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_yhdEorhqEe2Kif300Z6m1g" comments="_yhT6UrhqEe2Kif300Z6m1g" targetConnectionVisual="_yhT6U7hqEe2Kif300Z6m1g" name="setEndTime">
+      <modelElement href="SchedulableObject.uml#_w5FYQ7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEo7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEpLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEpbhqEe2Kif300Z6m1g" name="endTime">
+        <modelElement href="SchedulableObject.uml#_w5FYRLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEprhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEp7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEqLhqEe2Kif300Z6m1g" comments="_yhUhYLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhUhYbhqEe2Kif300Z6m1g" name="setStartTime">
+      <modelElement href="SchedulableObject.uml#_w5FYRbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEqbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEqrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEq7hqEe2Kif300Z6m1g" name="startTime">
+        <modelElement href="SchedulableObject.uml#_w5FYRrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdErLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdErbhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdErrhqEe2Kif300Z6m1g" comments="_yhUhYrhqEe2Kif300Z6m1g" targetConnectionVisual="_yhUhY7hqEe2Kif300Z6m1g" name="setReleaseTime">
+      <modelElement href="SchedulableObject.uml#_w5FYR7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEr7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEsLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEsbhqEe2Kif300Z6m1g" name="releaseTime">
+        <modelElement href="SchedulableObject.uml#_w5FYSLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEsrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEs7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEtLhqEe2Kif300Z6m1g" comments="_yhUhZLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhUhZbhqEe2Kif300Z6m1g" name="setPeriod">
+      <modelElement href="SchedulableObject.uml#_w5F_ULhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEtbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEtrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEt7hqEe2Kif300Z6m1g" name="period">
+        <modelElement href="SchedulableObject.uml#_w5F_UbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEuLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEubhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEurhqEe2Kif300Z6m1g" comments="_yhVIcLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhVIcbhqEe2Kif300Z6m1g" name="setPhase">
+      <modelElement href="SchedulableObject.uml#_w5F_UrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEu7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEvLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEvbhqEe2Kif300Z6m1g" name="phase">
+        <modelElement href="SchedulableObject.uml#_w5F_U7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEvrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEv7hqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdEwLhqEe2Kif300Z6m1g" comments="_yhVIcrhqEe2Kif300Z6m1g" targetConnectionVisual="_yhVvgLhqEe2Kif300Z6m1g" name="setNextReleaseTime">
+      <modelElement href="SchedulableObject.uml#_w5F_VLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEwbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEwrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdEw7hqEe2Kif300Z6m1g" name="currentTime">
+        <modelElement href="SchedulableObject.uml#_w5F_VbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdExLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdExbhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdExrhqEe2Kif300Z6m1g" name="compareAscendingOrder">
+      <modelElement href="SchedulableObject.uml#_w5GmYLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdEx7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdEyLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdEybhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5HNcLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdEyrhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdEy7hqEe2Kif300Z6m1g" name="v1">
+        <modelElement href="SchedulableObject.uml#_w5GmYbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEzLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdEzbhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdEzrhqEe2Kif300Z6m1g" name="v2">
+        <modelElement href="SchedulableObject.uml#_w5GmYrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdEz7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE0LhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE0bhqEe2Kif300Z6m1g" name="compareDescendingOrder">
+      <modelElement href="SchedulableObject.uml#_w5HNcbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdE0rhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdE07hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdE1LhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_w5HNdLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdE1bhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdE1rhqEe2Kif300Z6m1g" name="v1">
+        <modelElement href="SchedulableObject.uml#_w5HNcrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE17hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE2LhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdE2bhqEe2Kif300Z6m1g" name="v2">
+        <modelElement href="SchedulableObject.uml#_w5HNc7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE2rhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE27hqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE3LhqEe2Kif300Z6m1g" name="print">
+      <modelElement href="SchedulableObject.uml#_w5HNdbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdE3bhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdE3rhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdE37hqEe2Kif300Z6m1g" name="headerMsg">
+        <modelElement href="SchedulableObject.uml#_w5HNdrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE4LhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE4bhqEe2Kif300Z6m1g" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE4rhqEe2Kif300Z6m1g" name="print">
+      <modelElement href="SchedulableObject.uml#_w5HNd7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdE47hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdE5LhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_yhdE5bhqEe2Kif300Z6m1g" comments="_yhWWkLhqEe2Kif300Z6m1g" targetConnectionVisual="_yhWWkbhqEe2Kif300Z6m1g" name="SchedulableObject">
+      <modelElement href="SchedulableObject.uml#_xBJIEbhqEe2Kif300Z6m1g"/>
+      <visualProperties xmi:id="_6zvDgLhqEe2Kif300Z6m1g" visible="false"/>
+      <keywords xmi:id="_yhdE5rhqEe2Kif300Z6m1g" keyword="create"/>
+      <visibility xmi:id="_yhdE57hqEe2Kif300Z6m1g" label="~"/>
+      <cardinality xmi:id="_yhdE6LhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdE6bhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJIFrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdE6rhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdE67hqEe2Kif300Z6m1g" name="obj">
+        <modelElement href="SchedulableObject.uml#_xBJIErhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE7LhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE7bhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdE7rhqEe2Kif300Z6m1g" name="time">
+        <modelElement href="SchedulableObject.uml#_xBJIE7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE77hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE8LhqEe2Kif300Z6m1g" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE8bhqEe2Kif300Z6m1g" name="addSubObject">
+      <modelElement href="SchedulableObject.uml#_xBJvILhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdE8rhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdE87hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <parameters xmi:id="_yhdE9LhqEe2Kif300Z6m1g" name="obj">
+        <modelElement href="SchedulableObject.uml#_xBJvIbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE9bhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE9rhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE97hqEe2Kif300Z6m1g" name="maxPhaseComparison">
+      <modelElement href="SchedulableObject.uml#_xBJvIrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdE-LhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdE-bhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdE-rhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJvJLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdE-7hqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdE_LhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBJvI7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdE_bhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdE_rhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdE_7hqEe2Kif300Z6m1g" name="maxPhaseComparison">
+      <modelElement href="SchedulableObject.uml#_xBJvJbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFALhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFAbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFArhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJvKLhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFA7hqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFBLhqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBJvJrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFBbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFBrhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFB7hqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBJvJ7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFCLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFCbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFCrhqEe2Kif300Z6m1g" name="deadlineComparison">
+      <modelElement href="SchedulableObject.uml#_xBJvKbhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFC7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFDLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFDbhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJvK7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFDrhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFD7hqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBJvKrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFELhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFEbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFErhqEe2Kif300Z6m1g" name="deadlineComparison">
+      <modelElement href="SchedulableObject.uml#_xBJvLLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFE7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFFLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFFbhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJvL7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFFrhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFF7hqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBJvLbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFGLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFGbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFGrhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBJvLrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFG7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFHLhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFHbhqEe2Kif300Z6m1g" name="periodComparison">
+      <modelElement href="SchedulableObject.uml#_xBJvMLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFHrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFH7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFILhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBJvMrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFIbhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFIrhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBJvMbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFI7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFJLhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFJbhqEe2Kif300Z6m1g" name="periodComparison">
+      <modelElement href="SchedulableObject.uml#_xBKWMLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFJrhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFJ7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFKLhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBKWM7hqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFKbhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFKrhqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBKWMbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFK7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFLLhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFLbhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBKWMrhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFLrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFL7hqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFMLhqEe2Kif300Z6m1g" name="priorityComparison">
+      <modelElement href="SchedulableObject.uml#_xBKWNLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFMbhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFMrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFM7hqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBKWNrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFNLhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFNbhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBKWNbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFNrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFN7hqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFOLhqEe2Kif300Z6m1g" name="priorityComparison">
+      <modelElement href="SchedulableObject.uml#_xBKWN7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFObhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFOrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFO7hqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBKWOrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFPLhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFPbhqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBKWOLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFPrhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFP7hqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFQLhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBKWObhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFQbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFQrhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFQ7hqEe2Kif300Z6m1g" name="releaseTimeComparison">
+      <modelElement href="SchedulableObject.uml#_xBKWO7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFRLhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFRbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFRrhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBKWPbhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFR7hqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFSLhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBKWPLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFSbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFSrhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFS7hqEe2Kif300Z6m1g" name="releaseTimeComparison">
+      <modelElement href="SchedulableObject.uml#_xBKWPrhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFTLhqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFTbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFTrhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBKWQbhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFT7hqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFULhqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBKWP7hqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFUbhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFUrhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFU7hqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBKWQLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFVLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFVbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFVrhqEe2Kif300Z6m1g" name="LatestReleaseTimeComparison">
+      <modelElement href="SchedulableObject.uml#_xBK9QLhqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFV7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFWLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFWbhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBK9QrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFWrhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFW7hqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBK9QbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFXLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFXbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_yhdFXrhqEe2Kif300Z6m1g" name="LatestReleaseTimeComparison">
+      <modelElement href="SchedulableObject.uml#_xBK9Q7hqEe2Kif300Z6m1g"/>
+      <visibility xmi:id="_yhdFX7hqEe2Kif300Z6m1g" label="+"/>
+      <cardinality xmi:id="_yhdFYLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yhdFYbhqEe2Kif300Z6m1g">
+        <modelElement href="SchedulableObject.uml#_xBK9RrhqEe2Kif300Z6m1g"/>
+        <type xmi:id="_yhdFYrhqEe2Kif300Z6m1g" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yhdFY7hqEe2Kif300Z6m1g" name="obj1">
+        <modelElement href="SchedulableObject.uml#_xBK9RLhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFZLhqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFZbhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yhdFZrhqEe2Kif300Z6m1g" name="obj2">
+        <modelElement href="SchedulableObject.uml#_xBK9RbhqEe2Kif300Z6m1g"/>
+        <cardinality xmi:id="_yhdFZ7hqEe2Kif300Z6m1g" label="1" max="1" min="1"/>
+        <type xmi:id="_yhdFaLhqEe2Kif300Z6m1g" name="SchedulableObject">
+          <modelElement href="SchedulableObject.uml#_w5CU8LhqEe2Kif300Z6m1g"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
